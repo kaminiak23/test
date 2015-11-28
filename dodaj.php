@@ -4,6 +4,7 @@ require_once ('top.php');
 require_once ('config.php');
 
 // sprawdzenie czy zalogowany
+// test dodania
 if (!isset($_SESSION['zalogowany'])) 
 {
 	header('Location: index.php');
